@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <title>Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 </head>
 <body>
+    <h2 id="top-board"><span id="score">0</span> Points - <span id="timer"></span> Seconds left</h2>
+    <div class="is-hidden modal-overlay">
+        <div class="modal">
+            <div id="score-board"></div>
+            <h2>Choose your Warrior</h2>
+            <img src="images/char-boy.png" id="selected">
+            <img src="images/char-cat-girl.png">
+            <img src="images/char-horn-girl.png">
+            <img src="images/char-pink-girl.png">
+            <img src="images/char-princess-girl.png">
+            <span class="button-close">×</span>
+            <p>Use Arrow Keys to select - press Enter if ready</p>
+        </div>
+    </div>
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
