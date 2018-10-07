@@ -1,5 +1,6 @@
 Frogger Game
 ===============================
+Try to reach the water as often as possible in a certain amount of time!
 
 # How to play
 Copy this Repository and start index.html. Use your Keyboard to move on the field. Enjoy the game :)!
